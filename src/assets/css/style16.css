@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 1920px;
+  margin: 0 auto;
+}
+.container {
+  width: 1170px;
+}
+/* banner */
+.shop_right {
+  background-image: url("./pngtree-women-s-shoes-promotion-season-carnival-simple-white-banner-image_184441.jpg");
+  height: 350px;
+  margin: 0 110px;
+}
+.page_title h2{
+  text-align: center;
+  font-size: 48px;
+  padding-top: 135px;
+  text-transform: uppercase;
+}
+.breadcamp li {
+  list-style: none;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.breadcamp a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+.breadcamp li:hover {
+  color:#fe3e57;
+}
+/* ... */
+#input1{
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 7px 20px;
+    margin-bottom: 20px;
+}
+.first-name{
+    display: flex;
+}
+.first{
+    padding-right: 10px;
+}
+.phone{
+    display: flex;
+}
+.phone1{
+    padding-right: 10px;
+}
+.login p a{
+    color: #fe3e57;
+}
+textarea{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+.contact-info{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 120px 0;
+}
+/* ... */
+.man-watch{
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+}
+.man-apple{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.title-order{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.product-man{
+    padding: 20px 0;
+}
+.subt{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+.ship{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+.tot{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.your-product{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 120px;
+}
+
+.payment1{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-top: 25px;
+}
+.title-payment{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.check1{
+    display: flex;
+}
+.check1 input{
+    margin: 0;
+    width: 19px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.nd{
+    opacity: 0.6;
+}
+.check{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.check2{
+    padding: 20px;
+}
+
+
+.payment1 button{
+    background-color: #fe3e57;
+    color: #fff;
+    width: 100%;
+    padding: 7px 0;
+    text-align: center;
+}
+
+
+/* footer */
+footer {
+    background-color: #f6f6f6;
+}
+.address img {
+    padding-bottom: 34px;
+    padding-top: 122px;
+}
+.address a {
+    padding-top: 40px;
+    padding-right: 15px;
+    color: #cdcdcd;
+    font-size: 30px;
+}
+.address a i:hover {
+    color: #fe3e57;
+}
+.address p {
+    opacity: 0.6;
+}
+#text {
+    margin-top: 25px;
+    opacity: 0.6;
+}
+.payment {
+    margin-top: 25px;
+}
+.useful p {
+    opacity: 0.6;
+}
+.useful h2 {
+    padding-top: 122px;
+    padding-bottom: 29px;
+    font-size: 22px;
+}
+.account h2 {
+    padding-top: 122px;
+    padding-bottom: 29px;
+    font-size: 22px;
+}
+.account p {
+    opacity: 0.6;
+}
+.subcribe h2 {
+    padding-top: 122px;
+    padding-bottom: 29px;
+    font-size: 22px;
+}
+.subcribe p{
+    opacity: 0.6;
+}
+.payment a{
+    padding-left: 10px;
+}
+
+@media(max-width: 991px) {
+    #con9{
+        width: 100%;
+    }
+}

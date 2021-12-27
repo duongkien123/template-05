@@ -1,0 +1,311 @@
+<main>
+  <div class="shop_right">
+      <div class="container">
+          <div class="page_title">
+              <h2>Shop Page</h2>
+              <ul class="breadcamp d-flex justify-content-lg-center">
+                  <a href=""><li><i class="fas fa-home"></i></li></a>
+                  <a href=""><li>Home</li></a>
+                  <a href=""><li><i class="fas fa-angle-double-right"></i></li></a>
+                  <a href=""><li>Shop page</li></a>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <!-- Shop & Side Bar Left -->
+  <div class="container">
+      <div class="row">
+          <div class="col-8">
+              <div class="list_product">
+                  <div class="view_bar">
+                      <div class="row">
+                          <div class="col-6">
+                              <div class="view_type d-flex justify-content-start">
+                                  <p>View</p>
+                                  <a routerLink='product'><i class="fas fa-th"></i></a>
+                                  <a routerLink='main6'><i class="fas fa-th-list"></i></a>
+                              </div>
+                          </div>
+                          <div class="col-6 ">
+                              <div class="sort_by d-flex justify-content-end">
+                                  <p>Sort By Defaut <a href=""><i class="fas fa-angle-down"></i></a></p>
+                                  <p>Show 9 <a href=""><i class="fas fa-angle-down"></i></a></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <router-outlet></router-outlet>
+                  <div class="Pagination_bar">
+                      <div class="line_shape_right">
+                          <p></p>
+                      </div>
+                      <ul class="btn_pagi">
+                          <a href=""><li><i class="fas fa-angle-left"></i></li></a>
+                          <a href=""><li>PREVIOUS</li></a>
+                          <a href=""><li>NEXT</li></a>
+                          <a href=""><li><i class="fas fa-angle-right"></i></li></a>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-4">
+              <div class="side_bar">
+                  <div class="search_widget">
+                      <div class="title">
+                          <h5>Search</h5>
+                      </div>
+                      <div class="search_bar">
+                          <div class="input-group">
+                              <input type="search" class="form-control rounded" placeholder="Search your keyword..." aria-label="Search your keyword" aria-describedby="search-addon">
+                              <button type="button" class="btn btn-outline-primary" style="background-color: #fe3e57; color: #fff;"><i class="fas fa-search"></i></button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="price_filter">
+                      <div class="title">
+                          <h5>Price Filter</h5>
+                      </div>
+                      <div class="filter_bar">
+                          <div class="range">
+                          <input type="range" class="form-range" min="0" max="999" step="0.5" id="customRange3">
+                          </div>
+                      </div>
+                      <div class="filter_btn">
+                          <div class="row">
+                              <div class="col-6">
+                                  <div class="text_right">
+                                      <p>Price: $0 - $999</p>
+                                  </div>
+                              </div>
+                              <div class="col-6">
+                                  <div class="filter">
+                                      <button>Filter</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="color_filter">
+                      <div class="title">
+                          <h5>Color Filter</h5>
+                      </div>
+                      <div class="color">
+                          <div class="blue">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Blue</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <p></p>
+                      </div>
+                      <div class="color">
+                          <div class="red">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Red</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <p></p>
+                      </div>
+                      <div class="color">
+                          <div class="green">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Green</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <p></p>
+                      </div>
+                      <div class="color">
+                          <div class="orange">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Orange</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <p></p>
+                      </div>
+                      <div class="color">
+                          <div class="black">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Black</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="line">
+                          <p></p>
+                      </div>
+                      <div class="color">
+                          <div class="purple">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href="">Purple</a>
+                                  </div>
+                                  <div class="col-6">
+                                      <p></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="size_filter">
+                      <div class="title">
+                          <h5> Size Filter</h5>
+                      </div>
+                      <div class="check d-flex flex-column">
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">X-Small</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Small</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                              <label class="form-check-label" for="inlineCheckbox3">Medium</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                              <label class="form-check-label" for="inlineCheckbox4">Large</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                              <label class="form-check-label" for="inlineCheckbox5">XXL</label>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="category">
+                      <div class="title">
+                          <h5> Category</h5>
+                      </div>
+                      <div class="list_category">
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Woman</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>48</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Man</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>30</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Sale Products</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>92</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Fashion</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>121</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Hot Dresses</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>52</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                          <a href=""><div class="woman">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <p>Accessories</p>
+                                  </div>
+                                  <div class="col-6 d-flex justify-content-end">
+                                      <p>88</p>
+                                  </div>
+                              </div>
+                          </div></a>
+                      </div>
+                  </div>
+                  <div class="popular_tags">
+                      <div class="title">
+                          <h5>Popular Tags</h5>
+                      </div>
+                      <div class="tags">
+                          <div class="sweet_man">
+                              <div class="row">
+                                  <div class="col-6">
+                                      <a href=""><p>Sweetshirt</p></a>
+                                  </div>
+                                  <div class="col-6">
+                                      <a href=""><p>Man Accessories</p></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="fapot">
+                              <div class="row">
+                                  <div class="col-4">
+                                      <a href=""><p>Fashion</p></a>
+                                  </div>
+                                  <div class="col-4">
+                                      <a href=""><p>Polo</p></a>
+                                  </div>
+                                  <div class="col-4">
+                                      <a href=""><p>T-Shirt</p></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="jewe">
+                              <a href=""><p>Jewellery</p></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</main>

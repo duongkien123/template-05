@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 0 auto;
+}
+.wrap {
+    width: 1920px;
+    margin: 0 auto;
+}
+.container {
+    width: 1170px;
+}
+/* Main */
+.details_banner {
+    background-image: url("./pngtree-women-s-shoes-promotion-season-carnival-simple-white-banner-image_184441.jpg");
+    height: 350px;
+    margin: 0 110px;
+}
+.page_title h2{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 135px;
+    text-transform: uppercase;
+}
+.breadcamp li {
+    list-style: none;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.breadcamp a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+.breadcamp li:hover {
+    color:#fe3e57;
+}
+/* Product */
+/* img */
+.details_one {
+    margin-top: 120px;
+}
+.img_small img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+.img_big img {
+    width: 100%;
+}
+/* Variation */
+.product_variation {
+    justify-content: end;
+}
+.product_variation h5 {
+    font-weight: bold;
+}
+.product_price p {
+    padding-right: 10px;
+}
+.product_price del {
+    color: transparent;
+    text-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+.rating {
+    margin-left: 30px;
+}
+.rating li{
+    list-style: none;
+}
+#icon {
+    color: yellow;
+}
+#icon_1 {
+    color: #cdcdcd;
+}
+.review p{
+    color: transparent;
+    text-shadow: 0 0 1px rgba(0,0,0,0.5);
+    text-align: justify;
+}
+.review {
+    margin-bottom: -5px;
+}
+.card_color p {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    margin: 0 5px;
+    display: inline-block;
+}
+.card_pink {
+    background: pink;
+}
+.card_gray {
+    background: gray;
+}
+.card_orange {
+    background: orange;
+}
+.card_blue {
+    background: blue;
+}
+.card_green {
+    background: green;
+}
+.card_red {
+    background: red;
+}
+.size span {
+    padding: 1px 10px;
+    background: #fff;
+    color: #cdcdcd;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+.product_text {
+    margin-top: 10px;
+}
+.text_shop p {
+    font-weight: bold;
+}
+.text_gray p {
+    color: #cdcdcd;
+}
+.share {
+    margin-left: -35px;
+}
+.share a {
+    color: #cdcdcd;
+}
+.share a:hover {
+    color: #fe3e57;
+}
+.share li {
+    list-style: none;
+    padding-right: 10px;
+}
+#details_button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #000;
+}
+/* description */
+.description a {
+    text-decoration: none;
+    color: #cdcdcd;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.description a:hover {
+    text-decoration: underline #fe3e57;
+    color: #000;
+}
+.line_des p {
+    border: 1px solid #cdcdcd;
+    width: 1170x;
+    background-color: #cdcdcd;
+}
+/* Description */
+.user_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.rating_des {
+    list-style: none;
+    display: inline-block;
+}
+.review_des p{
+    color: #cdcdcd;
+}
+.name_date h5 {
+    padding-right: 20px;
+}
+.name_date p {
+    padding-right: 650px;
+}
+/* Add rating */
+.title_add a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #000;
+}
+.title_add a:hover {
+    text-decoration: underline #fe3e57;
+}
+.one_star, .two_star, .three_star, .four_star, .five_star {
+    list-style: none;
+}
+.form_name {
+    padding-right: 20px;
+}
+.form_text {
+    margin-bottom: 10px;
+}
+.form_email {
+    margin-bottom: 30px;
+}
+.btn-leave {
+    color: #fff;
+    background-color: #fe3e57;
+    padding: 5px 20px;
+}
+#form {
+    color: #cdcdcd;
+}
+/* Related */
+.title_related h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.details_four {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.line_related p {
+    border: 1px solid #cdcdcd;
+    width: 1170x;
+    background-color: #cdcdcd;
+}
+.img_related{
+    position: relative;
+}
+.related {
+    background-color: rgba(254, 62, 87, 1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.related h2 {
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.list_related .star_related{
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+}
+.list_related .star_related li {
+    display: inline-block;
+    padding-top: 30px;
+}
+#icon {
+    color: #ffb534;
+}
+#icon_1 {
+    color: #cdcdcd;
+}
+.list_related .mark_1 p{
+    font-weight: lighter;
+    text-align:end;
+    color: transparent;
+    text-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+.list_related .mark_2 p{
+    font-weight: bold;
+    text-align: start;
+}
+.list_related h5 {
+    text-align: center;
+}
+.list_related img{
+    width: 100%;
+}
