@@ -19,7 +19,11 @@ import { ShopdetailsComponent } from './shopdetails/shopdetails.component';
 const routes: Routes = [
   {path: '', component: MainComponent},
   {path: 'main2', component: Main2Component},
-  {path: 'main', component: MainComponent},
+  {
+    path: 'main',
+    loadChildren: () => import('./main/main.module').then(m => m.MainModule),
+    canActivate: [AuthGuardService]
+  },
   {path: 'main5', loadChildren: () => import('./main5/main5.module').then(m => m.Main5Module)},
   {path: 'shopdetails', component: ShopdetailsComponent},
   {path: 'main11', component: Main11Component},
@@ -27,7 +31,7 @@ const routes: Routes = [
   {path: 'cartpage', component: CartpageComponent},
   {path: 'checkout', component: CheckoutComponent},
   {path: 'blogdetails', component: BlogdetailsComponent},
-  {path: 'login', component: LoginComponent, canActivate: AuthGuardService},
+  {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent}
 ];
 

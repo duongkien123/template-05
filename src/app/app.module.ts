@@ -15,12 +15,14 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { AuthGuardService } from './auth-guard.service';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    MainComponent,
     Main2Component,
     ShopdetailsComponent,
     Main11Component,
@@ -33,9 +35,11 @@ import { RegisterComponent } from './register/register.component';
   ],
   imports: [
     BrowserModule,
+    CommonModule,
+    FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

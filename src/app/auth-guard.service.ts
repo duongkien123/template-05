@@ -1,12 +1,18 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
+import { ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Injectable()
 export class AuthGuardService implements CanActivate {
 
-  constructor() { }
+  constructor(private router: Router) { }
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
-    
+    if (sessionStorage.getItem('user') != null) {
+      return true;
+    } else {
+      console.log('Chưa đăng nhập......')
+      this.router.navigate(['login']);
+      return false;
+    }
   }
 }
